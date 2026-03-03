@@ -1,0 +1,11 @@
+{
+  "texts": [
+    "Government announces new economic policy",
+    "NASA launches satellite successfully",
+    "Stock market hits new high",
+    "Aliens landed in New York yesterday",
+    "Drinking bleach cures diseases",
+    "Scientists confirm earth is flat"
+  ],
+  "labels": [1, 1, 1, 0, 0, 0]
+}

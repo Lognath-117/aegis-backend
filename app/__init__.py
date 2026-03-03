@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_cors import CORS
-from .routes import api
+from app.api.routes import api
 
 def create_app():
     app = Flask(__name__)
@@ -10,6 +10,6 @@ def create_app():
 
     @app.route("/")
     def home():
-        return "AEGIS Backend Running (Iteration 2)"
+        return "AEGIS Backend Running (Iteration 3 Rebuilt)"
 
     return app
